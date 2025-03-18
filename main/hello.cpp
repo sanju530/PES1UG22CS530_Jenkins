@@ -1,10 +1,6 @@
-//File: hello.cpp
-#include <iostream>
-using namespace std;
-
-int main(void) {
-  cout << "Hello, World\n";
-  cout << "Hello, Jenkins\n";
-  cout << "I have successfully built and run this  \n";
-  return 0;
-}
+git init
+git checkout -b main
+git remote add origin "https://github.com/sanju530/PES1UG22CS530_Jenkins"
+git add .
+git commit -m "Initial commit"
+git push -f origin main
